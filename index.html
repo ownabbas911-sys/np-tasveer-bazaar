@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NP Tasveer Bazaar | Beautiful Images</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <a class="logo" href="#">NP <span>Tasveer Bazaar</span></a>
+    <a class="nav-link" href="#gallery">Explore Images</a>
+  </header>
+
+  <section class="hero">
+    <p class="tagline">WELCOME TO NP TASVEER BAZAAR</p>
+    <h1>Beautiful Images for Everyone</h1>
+    <p>Discover stunning photography for your creative ideas.</p>
+    <input id="searchInput" type="search"
+      placeholder="Search mountains, ocean, flowers..."
+      aria-label="Search images">
+    <a class="hero-button" href="#gallery">View Collection</a>
+  </section>
+
+  <main id="gallery">
+    <div class="section-heading">
+      <h2>Our Image Collection</h2>
+      <p>Choose your favourite image</p>
+    </div>
+
+    <div class="gallery">
+
+      <article class="card" data-name="Mountain Sunrise Nature">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85"
+          alt="Beautiful mountain landscape">
+        <div class="card-info">
+          <h3>Mountain Sunrise</h3>
+          <p>Beautiful mountain scenery.</p>
+          <div class="bottom">
+            <strong>PKR 500</strong>
+            <button class="buy-button" data-product="Mountain Sunrise">Buy Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" data-name="Ocean Paradise Sea">
+        <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=85"
+          alt="Blue ocean waves">
+        <div class="card-info">
+          <h3>Ocean Paradise</h3>
+          <p>Peaceful blue ocean views.</p>
+          <div class="bottom">
+            <strong>PKR 500</strong>
+            <button class="buy-button" data-product="Ocean Paradise">Buy Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" data-name="Green Forest Nature">
+        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85"
+          alt="Green forest trees">
+        <div class="card-info">
+          <h3>Green Forest</h3>
+          <p>Fresh and calming nature.</p>
+          <div class="bottom">
+            <strong>PKR 500</strong>
+            <button class="buy-button" data-product="Green Forest">Buy Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" data-name="City Lights Night">
+        <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=900&q=85"
+          alt="City buildings and lights">
+        <div class="card-info">
+          <h3>City Lights</h3>
+          <p>A beautiful city after dark.</p>
+          <div class="bottom">
+            <strong>PKR 500</strong>
+            <button class="buy-button" data-product="City Lights">Buy Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" data-name="Desert Golden Sand">
+        <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=900&q=85"
+          alt="Golden desert sand dunes">
+        <div class="card-info">
+          <h3>Desert Beauty</h3>
+          <p>Golden dunes and warm colours.</p>
+          <div class="bottom">
+            <strong>PKR 500</strong>
+            <button class="buy-button" data-product="Desert Beauty">Buy Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" data-name="Beautiful Flowers Garden">
+        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85"
+          alt="Colourful flowers">
+        <div class="card-info">
+          <h3>Beautiful Flowers</h3>
+          <p>Colourful flowers and garden views.</p>
+          <div class="bottom">
+            <strong>PKR 500</strong>
+            <button class="buy-button" data-product="Beautiful Flowers">Buy Now</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <p id="noResults" hidden>No images found. Try another search.</p>
+  </main>
+
+  <footer>
+    <h2>NP Tasveer Bazaar</h2>
+    <p>Beautiful Images. Simple Shopping.</p>
+    <p>Orders and enquiries via WhatsApp.</p>
+    <small>© 2026 NP Tasveer Bazaar</small>
+  </footer>
+
+</body>
+</html>
